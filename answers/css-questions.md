@@ -2,7 +2,8 @@
 
 #### What is the difference between classes and ID's in CSS?
 
-*Not answered yet*
+- Class: to consistently style multiple elements throughout the page/site. Classes are useful when you have, or possibly will have in the future, more than one element that shares the same style. An example may be a div of "comments" or a certain list style to use for related links.
+- ID: when you have a single element on the page that will take the style. Remember that IDs must be unique. 
 
 #### What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 
