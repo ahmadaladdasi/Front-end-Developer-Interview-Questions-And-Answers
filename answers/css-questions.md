@@ -40,6 +40,8 @@ Block formatting contexts:
 - restrain floats
 - contain floats
 
+http://lucybain.com/blog/2015/css-block-formatting-context/
+
 #### What are the various clearing techniques and which is appropriate for what context?
 
 ```css
