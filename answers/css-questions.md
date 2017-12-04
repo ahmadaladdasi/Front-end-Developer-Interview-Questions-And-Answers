@@ -26,7 +26,7 @@ The `float` property can have one of the following values:
 
 #### Describe z-index and how stacking context is formed.
 
-The `z-index` property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order.. 
+The `z-index` property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order. 
 
 Stacking context can be formed in several situations, but most famously, by a root element and
 positioned elements. In each stacking context, `z-index` will be calculated
@@ -34,9 +34,11 @@ separately for its children and will stack the children in ascending order.
 
 #### Describe BFC(Block Formatting Context) and how it works.
 
-BFC is a part of rendering a webpage. It's used to determine from which
-positioning and clearing should be done. The context is created by several
-ways, but the most famously, by a root element, float, positioned elements.
+Block formatting contexts:
+
+- stop margins from collapsing
+- restrain floats
+- contain floats
 
 #### What are the various clearing techniques and which is appropriate for what context?
 
