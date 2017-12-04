@@ -26,8 +26,9 @@ The `float` property can have one of the following values:
 
 #### Describe z-index and how stacking context is formed.
 
-`z-index` tells how elements should be stacked in a screen. Stacking context
-can be formed in several situations, but most famously, by a root element and
+The `z-index` property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order.. 
+
+Stacking context can be formed in several situations, but most famously, by a root element and
 positioned elements. In each stacking context, `z-index` will be calculated
 separately for its children and will stack the children in ascending order.
 
