@@ -12,10 +12,14 @@
 
 #### Describe Floats and how they work.
 
-There are `left`, `right` and `none` for `float`. Each value indicates how an
-element should float. When `float` is set, each element will get out of its
-normal flow and will be shifted to the specified direction, until it gets its
-container or another floated element.
+The `float` property is used for positioning and layout on web pages.
+
+The `float` property can have one of the following values:
+
+`left` - The element floats to the left of its container
+`right`- The element floats to the right of its container
+`none` - The element does not float (will be displayed just where it occurs in the text). This is default
+`inherit` - The element inherits the float value of its parent
 
 #### Describe z-index and how stacking context is formed.
 
